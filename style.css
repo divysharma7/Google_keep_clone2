@@ -1,0 +1,182 @@
+body{
+  margin: 0;
+  background: black;
+}
+.topnav{
+  overflow:hidden;
+  background-color:#404040 ;
+  position: relative;
+}
+.topnav #mylinks{
+  display: none;
+
+}
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+.topnav a.icon {
+  background: black;
+  display: flex;
+  position: absolute;
+  float: left;
+  right: 0;
+  top: 0;
+}
+.topnav a:hover {
+  background-color: #2087B3;
+  color: black;
+}
+.active {
+  background-color: #F2B705;
+  color: white;
+}
+.hi{
+  width: 15%;
+  color: white;
+
+
+}
+.topnav input[type=text] {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  margin-left: 10%;
+  font-size: 17px;
+}
+.topnav .search-container button {
+  float: inherit;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.topnav .search-container {
+  float: inherit;
+}
+
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+  * {
+  box-sizing: border-box;
+}
+
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+ul li:hover {
+  background: #ddd;
+}
+
+
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+  background-color: #F2B705;
+  color: white;
+}
+
+
+.header {
+  background-color: #F2B705;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+
+/
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+
+.addBtn {
+  padding: 10px;
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.addBtn:hover {
+  background-color: #bbb;
+}

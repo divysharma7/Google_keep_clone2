@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Google Keep clone</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="topnav">
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+      <script type="text/javascript" src="index.js"></script>
+    </a>
+    <a href="#home" class="active"><img src="keep.png" height="50rem" width="50rem" alt="logo"></a>
+    <div class="search-container">
+      <form action="/action_page.php">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  <hr class="hi">
+    <div id="myLinks">
+      <ul>
+
+        <a href="#notes">Notes</a>
+        <a href="#archive">Archive</a>
+        <a href="#trash">Trash</a>
+      </ul>
+
+    </div>
+
+  </div>
+  <div id="myDIV" class="header">
+  <h2>My To Do List</h2>
+  <input type="text" id="myInput" placeholder="Title...">
+  <div onclick="newElement()" class="addBtn">Add</div>
+</div>
+
+<ul id="myUL">
+  <li>play time</li>
+  <li class="checked">lunch</li>
+  <li>Meet with Conatus</li>
+  <li>time to party</li>
+  <li>let's study</li>
+  <li>time to sleep</li>
+</ul>
+
+
+
+</body>
+
+</html>
